@@ -8,4 +8,8 @@ class Home extends BaseController
     {
         return view('Pages/home');
     }
+    public function paege()
+    {
+        return view('Pages/home');
+    }
 }
