@@ -38,7 +38,7 @@ $routes->set404Override();
 $routes->get('/', 'Home::index');
 $routes->get('/pages', 'BajuController::index');
 $routes->post('/create', 'BajuController::create');
-$routes->post('/store', 'BajuController::store');
+$routes->get('/store', 'BajuController::store');
 $routes->get('/edit/(:num)', 'BajuController::edit/$1');
 $routes->post('/update/(:num)', 'BajuController::update/$1');
 $routes->delete('/delete/(:num)', 'BajuController::delete/$1');
